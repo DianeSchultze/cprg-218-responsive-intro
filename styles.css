@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f1e1f8;
+    color: #575757;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: #ffffff;
+        font-size: 1.5vw;
+        color: #00ffcc;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    body {
+        background-color: pink;
+        font-size: 4vw;
+        color: black;
+
+    }
+}
